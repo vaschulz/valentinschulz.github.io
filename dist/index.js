@@ -1,4 +1,3 @@
-import './style.css';
 import {OrbitControls} from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
 
@@ -95,7 +94,7 @@ const control = new OrbitControls(camera, renderer.domElement);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('8k_stars_milky_way.jpg');
+const spaceTexture = new THREE.TextureLoader().load('space2.png');
 scene.background = spaceTexture;
 
 function addStar() {
